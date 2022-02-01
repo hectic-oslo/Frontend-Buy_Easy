@@ -1,12 +1,12 @@
 import React from "react"
 import {Link} from 'react-router-dom'
 
-const Footer = () => <footer className="page-footer font-small blue pt-4 text-white bg-dark" >
+const Footer = () => <footer id='footer-1' className="page-footer font-small blue pt-4 text-white bg-dark" >
     <div className="container-fluid text-center text-md-left" >
         <div className="row">
             <div className="col-md-6 mt-md-0 mt-3">
                 <h3 className="text-uppercase">Buy-Easy™ </h3>
-                <h5>Developed by<a href="https://www.linkedin.com/in/abhi03kumar/"> Abhishek Kumar </a></h5>
+                <h5>Developed by<a href="https://www.linkedin.com/in/abhi03kumar/" target="_blank" rel="noopener noreferrer"> Abhishek Kumar </a></h5>
             </div>
 
             <hr className="clearfix w-100 d-md-none pb-0"/>
@@ -34,8 +34,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 text-wh
         </div>
     </div>
 
-    <div className="footer-copyright text-center py-3">© 2020 Copyright:
-        <Link to="#">Buy-Easy</Link>
+    <div className="footer-copyright text-center py-3">© 2021-22 <Link to="/">Buy-Easy™</Link>
     </div>
 
 </footer>
