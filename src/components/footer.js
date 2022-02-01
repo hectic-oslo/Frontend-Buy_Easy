@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from 'react-router-dom'
-
-const Footer = () => <footer id='footer-1' className="page-footer font-small blue pt-4 text-white bg-dark" >
+// import {Container} from 'react-bootstrap'
+const Footer = () =><> <footer id='footer-1' className="page-footer font-small blue pt-4 text-white bg-dark" style={{marginTop:200}} >
     <div className="container-fluid text-center text-md-left" >
         <div className="row">
             <div className="col-md-6 mt-md-0 mt-3">
@@ -38,5 +38,6 @@ const Footer = () => <footer id='footer-1' className="page-footer font-small blu
     </div>
 
 </footer>
+</>
 
 export default Footer
